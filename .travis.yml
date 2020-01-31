@@ -4,6 +4,7 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
+  - GRANT_TYPE="client_credentials"
 stages:
   - build and publish
   - deploy
