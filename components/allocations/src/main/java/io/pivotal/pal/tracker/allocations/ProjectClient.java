@@ -15,7 +15,7 @@ public class ProjectClient {
     private final String registrationServerEndpoint;
 
     public ProjectClient(RestOperations restOperations, String registrationServerEndpoint) {
-        this.restOperations= restOperations;
+        this.restOperations = restOperations;
         this.registrationServerEndpoint = registrationServerEndpoint;
     }
 
